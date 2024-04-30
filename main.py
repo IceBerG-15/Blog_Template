@@ -14,7 +14,7 @@ from forms import CreatePostForm
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'jay and mehul rand hai !!!'
+app.config['SECRET_KEY'] = 'jay and mehul **** hai !!!'
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
