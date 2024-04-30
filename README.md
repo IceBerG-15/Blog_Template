@@ -20,3 +20,5 @@ This is a simple blog application built using Flask, a lightweight Python web fr
 ```bash
 git clone https://github.com/yourusername/flask-blog-app.git
 cd flask-blog-app
+```
+dasd
