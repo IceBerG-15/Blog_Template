@@ -21,4 +21,21 @@ This is a simple blog application built using Flask, a lightweight Python web fr
 git clone https://github.com/yourusername/flask-blog-app.git
 cd flask-blog-app
 ```
-dasd
+### Create and Activate Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+```bash
+flask run
+```
