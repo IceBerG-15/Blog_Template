@@ -37,6 +37,20 @@ activate venv
 pip install -r requirements.txt
 ```
 
+### Create an .env file
+In this file you will store sensitive data that you dont want to show the world.
+```bash
+SECRET_KEY = 'Your secret key'
+DB_URI = 'Your DB uri'
+```
+Will edit this DB_URI later on. Just create.
+
+### Create a Procfile
+This file will help render to run our application.
+   ```bash
+   web: gunicorn main:app
+   ```
+
 ## Usage
 
 ### Run the application
@@ -65,6 +79,23 @@ Navigate through different blog posts, categories, and add your own posts.
 ### Interact with Comments:
 
 Users can comment on blog posts.
+
+### Deploy to Render.com
+1. Sign Up/Login to Render.com:
+Create an account on Render.com if you haven't already.
+
+2. Create New Web Service:
+Click on Create New -> Web Service.
+Choose your GitHub repository where your Flask app is hosted.
+
+3. Configure Settings:
+Environment: Choose Python.
+Configure Environment Variables.
+Setup postgresql link.
+
+5. Deploy Your App:
+Click on Create Web Service.
+Render will automatically build and deploy your Flask app.
 
 ## Contributing
 
