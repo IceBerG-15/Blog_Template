@@ -3,6 +3,8 @@
 
 This is a simple blog application built using Flask, a lightweight Python web framework. The app allows users to create, read, update, and delete blog posts. It includes user authentication and authorization features.
 
+## Live Link: https://blog-template-ayev.onrender.com/
+
 ## Features
 
 - **User Authentication**: Users can sign up, log in, and log out securely.
